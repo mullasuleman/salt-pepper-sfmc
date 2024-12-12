@@ -1,0 +1,101 @@
+/** Copyright 2024 Suleman Mulla **/
+
+details#dataViewContainer,
+#dataViewContainer details {
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	padding: 0.5em 0.5em 0;
+	background-color: #fafafa;
+	margin: 10px;
+}
+
+details#dataViewContainer summary,
+#dataViewContainer details summary {
+	font-weight: bold;
+	border-radius: 4px;
+	margin: -0.5em -0.5em 0;
+	padding: 0.5em;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ebebeb;
+}
+
+details#dataViewContainer summary button,
+#dataViewContainer details summary button {
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0 5px;
+	display: none;
+}
+
+#dataViewContainer span i {
+	font-size: 11px;
+	font-weight: 400;
+}
+
+details#dataViewContainer summary i,
+#dataViewContainer details summary i {
+	display: none;
+}
+
+details#dataViewContainer[open],
+#dataViewContainer details[open] {
+	padding: 0.5em;
+}
+
+details#dataViewContainer[open]>summary,
+#dataViewContainer details[open]>summary {
+	border-bottom: 1px solid #aaa;
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 0.5em;
+}
+
+details#dataViewContainer[open]>summary button,
+#dataViewContainer details[open]>summary button {
+	display: block;
+}
+
+details#dataViewContainer[open]>summary i,
+#dataViewContainer details[open]>summary i {
+	display: inline-block;
+	margin-top: 3px;
+}
+
+#dataViewContainer input[type=checkbox],
+.checkboxed input[type=checkbox] {
+	cursor: pointer;
+	vertical-align: text-bottom;
+	margin-right: 2px;
+}
+
+#dataViewContainer input[type=checkbox] {
+	vertical-align: 0;
+}
+
+
+.dataViewAttribute {
+	display: block;
+	cursor: pointer;
+	margin: 2px 0;
+}
+
+#copyFieldsBtn {
+	background: #fafafa;
+	margin: 10px 0px;
+	padding: 2px 5px;
+	border-radius: 5px;
+	border: 1px solid #b5c6d2;
+	box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15);
+	font-size: 11px;
+	width: 100%;
+}
+
+#copyBox {
+	position: absolute !important;
+	display: inline !important;
+	width: 0 !important;
+	height: 0 !important;
+	opacity: 0 !important;
+}

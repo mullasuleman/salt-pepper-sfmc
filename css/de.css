@@ -1,0 +1,64 @@
+/** Copyright 2024 Suleman Mulla **/
+
+#sfmcToolSetSM {
+	/* position: absolute; */
+	/* z-index: 1000, */
+	width: max-content;
+	max-width: 80vw;
+	/* left: 50%; */
+	/* translate: -50%; */
+	/* bottom: 9px; */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* flex-wrap: wrap; */
+	/* padding: 5px 10px; */
+	/* border-radius: 8px; */
+	/* background: rgba(200, 200, 200, 0.7); */
+	/* box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px 0px; */
+}
+
+#sfmcToolSetSM button {
+	background: linear-gradient(to bottom, #fff, #dae5ed);
+	margin: 0px 5px;
+	/* margin: 5px 5px; */
+	padding: 2px 5px;
+	border-radius: 5px;
+	border: 1px solid #b5c6d2;
+	box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15);
+	font-size: 11px;
+	width: fit-content;
+}
+
+#toastSM {
+	position: fixed;
+	bottom: 50px;
+	opacity: 0;
+	z-index: 1000;
+	width: fit-content;
+	left: 50%;
+	translate: -50%;
+	display: flex;
+	justify-content: center;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background: rgba(200, 200, 200, 1);
+	box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px 0px;
+	transition: 0.2s;
+}
+
+#toastSM.show {
+	bottom: 100px;
+	opacity: 1;
+}
+
+#copyBox {
+	/* position: absolute; */
+	display: inline;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+#op-head-manage-send {
+	display: flex !important;
+}

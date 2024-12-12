@@ -1,0 +1,38 @@
+{
+  "id": "341ceba0-15fa-4006-a6d9-a01e0d4720c1",
+  "manifest_version": 3,
+  "name": "Salt&Pepper for SFMC",
+  "version": "1.0",
+  "description": "Add utilities to SFMC Data Extension (Email Studio) and Query Studio",
+
+  "icons": {
+    "16": "images/sp-icon-16.png",
+    "32": "images/sp-icon-32.png",
+    "48": "images/sp-icon-48.png",
+    "128": "images/sp-icon-128.png"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ],
+
+  "content_scripts": [{
+      "matches": [
+        "https://mc.exacttarget.com/*",
+        "https://*.exacttarget.com/*"
+      ],
+      "run_at": "document_end",
+      "all_frames": true,
+      "css": ["css/de.css"],
+      "js": ["scripts/de.js"]
+    },
+    {
+      "matches": [
+        "https://querystudio.herokuapp.com/"
+      ],
+      "run_at": "document_end",
+      "all_frames": true,
+      "css": ["css/qs.css"],
+      "js": ["scripts/qs.js"]
+    }
+  ]
+}

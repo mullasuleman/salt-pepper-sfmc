@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "name": "Salt&Pepper for SFMC",
   "version": "1.0",
-  "description": "Add utilities to SFMC Data Extension (Email Studio) and Query Studio",
+  "description": "Adds utilities to SFMC Data Extension (Email Studio) and Query Studio",
 
   "icons": {
     "16": "images/sp-icon-16.png",

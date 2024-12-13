@@ -1,2 +1,16 @@
 ![Salt&Pepper for SFMC](images/sp-icon-128.png)
-# Coming soon...
+# What is this?
+Adds utilities to SFMC Data Extension (Email Studio) and Query Studio
+
+# Tools
+### Email Studio > Data Extensions: 
+- Download Data Extension Schema
+- Download Blank CSV with Data Extension fields as headers
+- Copy SQL (all fields)
+
+### Query Studio: 
+- Select/Copy fields form Data Extension Search results
+- View/Select/Copy Data View Attributes with alias of your choice
+
+# Download
+Coming soon...

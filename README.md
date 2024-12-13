@@ -14,4 +14,5 @@ Browser extension that adds utilities to SFMC Data Extension (Email Studio) and 
 
 # Download
 Firefox: [Download](download/salt-pepper-sfmc-ff-1.0.zip)
+
 Chrome/Edge: [Download](download/salt-pepper-sfmc-1.0.crx)

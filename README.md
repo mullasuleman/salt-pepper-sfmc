@@ -13,5 +13,5 @@ Browser extension that adds utilities to SFMC Data Extension (Email Studio) and 
 - View/Select/Copy Data View Attributes with alias of your choice
 
 # Download
-Firefox: (download/salt-pepper-sfmc-ff-1.0.zip)
-Chrome/Edge: (download/salt-pepper-sfmc-1.0.crx)
+Firefox: [Download](download/salt-pepper-sfmc-ff-1.0.zip)
+Chrome/Edge: [Download](download/salt-pepper-sfmc-1.0.crx)

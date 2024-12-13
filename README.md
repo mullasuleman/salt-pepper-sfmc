@@ -1,6 +1,6 @@
 ![Salt&Pepper for SFMC](images/sp-icon-128.png)
 # What is this?
-Adds utilities to SFMC Data Extension (Email Studio) and Query Studio
+Browser extension that adds utilities to SFMC Data Extension (Email Studio) and Query Studio
 
 # Tools
 ### Email Studio > Data Extensions: 
